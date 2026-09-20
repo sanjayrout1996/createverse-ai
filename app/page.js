@@ -1,4 +1,7 @@
- const tools = [
+ "use client";
+
+const tools = [
+  
 ["🎬", "AI Video Generator", "Create videos from text, images and stories."],
 ["✍️", "AI Script Generator", "Turn your ideas into professional scripts."],
 ["🖼️", "AI Image Generator", "Create original visuals from simple prompts."],
