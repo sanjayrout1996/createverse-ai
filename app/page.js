@@ -96,12 +96,16 @@ return (
           <p>{description}</p>
 
           <button
-            onClick={() =>
-              alert(`${title} will be connected to the AI tool next.`)
-            }
-          >
-            Explore →
-          </button>
+  onClick={() => {
+    if (title === "AI Video Generator") {
+      window.location.href = "/video";
+    } else {
+      alert(`${title} will be connected next.`);
+    }
+  }}
+>
+  Explore →
+</button>
         </div>
       ))}
     </div>
